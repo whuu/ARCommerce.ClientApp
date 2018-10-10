@@ -25,7 +25,10 @@ It's possible to change the settings or trigger synchronization with server afte
 
 When you point to the object with device's camera, app will load product information from Sitecore using `/api/cxa/ARCatalog/ProductInformation` from [ARCommerce.ProductAPI](https://github.com/whuu/ARCommerce.ProductAPI/) and display it above the object. When user taps on this information, app opens the product in Sitecore Commerce website.
 
-![Scan Product](images/sitecore-ar-product.jpg) ![Product In Shop](images/sitecore-ar-shop.jpg)
+<p float="left">
+  <img src="/images/sitecore-ar-product.jpg" width="200" />
+  <img src="/images/sitecore-ar-shop.jpg" width="200" /> 
+</p>
 
 ## Installation
 
