@@ -11,11 +11,15 @@ Object scans (`.arobject` files) used for detection are downloaded from Sitecore
 ## Usage
 
 ### Settings
-When opened for the first time app will ask for the Sitecore Commerce URL and item ID of Products Category, which contains products with AR scans.<br/>
+When opened for the first time, app will ask for the Sitecore Commerce website URL and item ID of products category, which contains products with AR scans.<br/>
 Afterwards it will sync product IDs and AR objects with Sitecore. For details check `/api/cxa/ARCatalog/GetProductScans` in [ARCommerce.ProductAPI](https://github.com/whuu/ARCommerce.ProductAPI/).<br/>
 It's possible to change the settings or trigger synchronization with server afterwards, by tapping "Sync Products" or "i" buttons. 
 
-![Settings](images/sitecore-ar-settings.jpg) ![Sync](images/sitecore-ar-sync.jpg) ![Sync Finished](images/sitecore-ar-sync-finished.jpg)
+<p float="left">
+  <img src="/images/sitecore-ar-settings.jpg" width="200" />
+  <img src="/images/sitecore-ar-sync.jpg" width="200" /> 
+  <img src="/images/sitecore-ar-sync-finished.jpg" width="200" />
+</p>
 
 ### Object Scanning
 
